@@ -15,7 +15,11 @@ public class Main {
         System.out.println("Choose code for year:\n1- Freshman.\n2- Sophomore.\n3- Junior.\n4- Senior.");
         int year = scanner.nextInt();
 
-
+        var student = new Student(firstName, lastName, year);
+        var math = new Course("Math 101", 600);
+        var english = new Course("English 101", 600);
+        var history = new Course("History 101", 600);
+        var IT = new Course("Information Tech 101", 600);
 
     }
 }
